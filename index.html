@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank You</title>
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- Favicon (works on GitHub Pages) -->
+    <link rel="icon" href="/portfolio-hetdabhi/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/portfolio-hetdabhi/assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- Import Poppins font from Google Fonts -->
     <style>
-        /* Import Poppins font from Google Fonts */
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
-        /* Define custom color variable */
         :root {
-            --first-color: #3969eb; /* Blue color */
+            --first-color: #3969eb;
         }
 
-        /* General reset for margin and padding */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        /* Body styling */
         body {
-            font-family: 'Poppins', sans-serif; /* Apply Poppins font */
-            background-color: #ffffff; /* White background */
-            color: #333; /* Dark text color */
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffffff;
+            color: #333;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -35,30 +36,27 @@
             overflow: hidden;
         }
 
-        /* Heading styling */
         h1 {
             font-size: 36px;
-            color: var(--first-color); /* Apply first color to the heading */
+            color: var(--first-color);
             margin-bottom: 20px;
-            opacity: 0; /* Initially hidden */
-            animation: fadeIn 2s forwards; /* Fade-in animation */
-            font-weight: 600; /* Bold font weight */
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+            font-weight: 600;
         }
 
-        /* Paragraph styling */
         p {
             font-size: 20px;
-            color: #555; /* Muted text color */
+            color: #555;
             line-height: 1.6;
             margin-bottom: 30px;
-            opacity: 0; /* Initially hidden */
-            animation: fadeIn 2s 0.5s forwards; /* Fade-in animation with delay */
-            font-weight: 400; /* Regular font weight */
+            opacity: 0;
+            animation: fadeIn 2s 0.5s forwards;
+            font-weight: 400;
         }
 
-        /* Button styling */
         .button {
-            background-color: var(--first-color); /* Use first color for button */
+            background-color: var(--first-color);
             color: #fff;
             padding: 15px 30px;
             border: none;
@@ -68,33 +66,30 @@
             text-decoration: none;
             display: inline-block;
             margin-top: 20px;
-            transition: background-color 0.3s ease; /* Smooth color transition */
-            font-weight: 600; /* Bold font weight */
+            transition: background-color 0.3s ease;
+            font-weight: 600;
         }
 
         .button:hover {
-            background-color: #3969eb; /* Darker blue on hover */
+            background-color: #2f55c8;
         }
 
-        /* Fade-in animation */
         @keyframes fadeIn {
             0% {
                 opacity: 0;
-                transform: translateY(-20px); /* Start from above */
+                transform: translateY(-20px);
             }
             100% {
                 opacity: 1;
-                transform: translateY(0); /* End at normal position */
+                transform: translateY(0);
             }
         }
     </style>
 </head>
 <body>
-
     <div>
         <h1>Thank You for Contacting Me!</h1>
         <p>I have received your message and will get back to you soon.</p>
-        <!-- Button to go to the home page -->
         <a href="https://hetdabhi.github.io/portfolio-hetdabhi/" class="button">Go to Home Page</a>
     </div>
 </body>
